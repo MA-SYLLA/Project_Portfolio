@@ -1,0 +1,52 @@
+body {
+    height: 100vh;
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    background: rgba(236,233,233,0.77) center/cover;
+    background: linear-gradient(150deg,rgba(236,233,233,0.77) 40%, #73dcdc 90%) center/cover;
+    background: -webkit-linear-gradient(175deg,rgba(236,233,233,0.77) 40%, #73dcdc 90%) center/cover;
+    background: -moz-linear-gradient(110deg,rgba(236,233,233,0.77) 40%, #73dcdc 90%)center/cover;
+    overflow: hidden;
+}
+
+header {
+    height: 100px;
+    width: auto;
+    border: 2px solid salmon;
+}
+
+.First_bandeau {
+    position: relative;
+    height: 50px;
+    width: auto;
+}
+
+#Logo_reseaux_sociaux {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+#Telephone {
+    position: absolute;
+    top: 8px;
+    left: 70%;
+}
+
+#number_phone {
+    position: absolute;
+    top: 1px;
+    left: 73%;
+}
+
+#Mail {
+    position:absolute;
+    top: 8px;
+    left: 82%;
+}
+
+#email {
+    position: absolute;
+    top: 1px;
+    left: 85%;
+}
