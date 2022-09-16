@@ -2,51 +2,70 @@ body {
     height: 100vh;
     width: auto;
     font-family: 'Times New Roman', Times, serif;
-    background: rgba(236,233,233,0.77) center/cover;
     background: linear-gradient(150deg,rgba(236,233,233,0.77) 40%, #73dcdc 90%) center/cover;
-    background: -webkit-linear-gradient(175deg,rgba(236,233,233,0.77) 40%, #73dcdc 90%) center/cover;
-    background: -moz-linear-gradient(110deg,rgba(236,233,233,0.77) 40%, #73dcdc 90%)center/cover;
     overflow: hidden;
 }
 
 header {
-    height: 100px;
+    height: 140px;
     width: auto;
-    border: 2px solid salmon;
+    font-size: 20px;
 }
 
 .First_bandeau {
-    position: relative;
-    height: 50px;
-    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
 }
 
-#Logo_reseaux_sociaux {
-    position: absolute;
-    top: 8px;
-    left: 10px;
+ .Logo_reseaux_sociaux {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
 }
 
-#Telephone {
-    position: absolute;
-    top: 8px;
-    left: 70%;
+.Telephone {
+    display: flex;
+    align-items: center;
+    padding-left: 1000px;
 }
 
-#number_phone {
-    position: absolute;
-    top: 1px;
-    left: 73%;
+.Mail {
+    display: flex;
+    align-items: center;
+    padding-right: 180px;
 }
 
-#Mail {
-    position:absolute;
-    top: 8px;
-    left: 82%;
+.Second_bandeau {
+    background: linear-gradient(150deg,rgba(115,220,220,0.4) 40%, #ece9e9 90%) center/cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    border: 1px solid rgb(0, 77, 243);
+    border-radius: 20 px;
 }
 
-#email {
-    position: absolute;
-    top: 1px;
-    left: 85%;
+.Logo_Scylla {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1150px;
+    list-style: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
